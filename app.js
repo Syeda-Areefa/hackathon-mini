@@ -97,7 +97,7 @@ import {
   
     
     // Check the current page path and attach the event listener
-    if (window.location.pathname === "/index.html") {
+    if (window.location.pathname === "/hackathon-mini/") {
       let sign_up = document.getElementById("sign_up");
       sign_up.addEventListener("click", signUp);
     } 
@@ -120,7 +120,7 @@ import {
   };
   
   // Handle Login Page (for login form)
-  if (window.location.pathname === "/login.html") {
+  if (window.location.pathname === "/hackathon-mini/login.html") {
     let sign_in = document.getElementById("sign_in");
     sign_in.addEventListener("click", signIn);
   }
